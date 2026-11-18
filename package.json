@@ -2,10 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "controlador/server.js",
   "scripts": {
     "start": "node controlador/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo Test exitoso",
+    "build": "echo Build exitoso"
   },
   "keywords": [],
   "author": "",

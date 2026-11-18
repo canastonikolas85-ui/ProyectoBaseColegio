@@ -21,8 +21,8 @@ const config = {
     server: process.env.DB_SERVER || 'localhost',
     database: process.env.DB_NAME,
     options: {
-        trustServerCertificate: true,
-        encrypt: false
+        trustServerCertificate: false,
+        encrypt: true
     }
 };
 async function conectarBaseDatos() {
